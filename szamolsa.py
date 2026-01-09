@@ -59,6 +59,7 @@ def kiíras(min,max,db):
     print(f"legkissebb érték {min},legnagyob érték {max}")
 
 def fajlba_kiir(db):
-    with open("paratlanok.txt","w")as f:
+    with open("paratlanok.txt","w",encoding="utf-8")as f:
         f.write(f"páratlanok száma: {db}")
-    print(f"paratlanok.txt ekészült!")
+    print(f"paratlanok.txt elkészült!")
+    f.close()
