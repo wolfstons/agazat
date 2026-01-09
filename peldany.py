@@ -6,7 +6,5 @@ def peldany():
 
     print(f"név: {lali.nev} \nkor: {lali.kor}")
     print(f"név: {juli.nev} \nkor: {juli.kor}")
-    emberlista=[]
-    emberlista.append(lali)
-    emberlista.append(feri)
-    emberlista.append(juli)
+    emberek=[lali,feri,juli]
+    print(emberek)
